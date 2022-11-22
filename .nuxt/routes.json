@@ -1,0 +1,30 @@
+[
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "D:\\\\Kuliah\\\\Semester 6\\\\Tugas Akhir\\\\Program\\\\app_pilkaos\\\\pages\\\\home.vue",
+    "chunkName": "pages/home",
+    "_name": "_50452ab9"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "D:\\\\Kuliah\\\\Semester 6\\\\Tugas Akhir\\\\Program\\\\app_pilkaos\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire",
+    "_name": "_49a5e320"
+  },
+  {
+    "name": "rules",
+    "path": "/rules",
+    "component": "D:\\\\Kuliah\\\\Semester 6\\\\Tugas Akhir\\\\Program\\\\app_pilkaos\\\\pages\\\\rules.vue",
+    "chunkName": "pages/rules",
+    "_name": "_7dce14e6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Kuliah\\\\Semester 6\\\\Tugas Akhir\\\\Program\\\\app_pilkaos\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_0c9d6fe8"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/stepper-value1.js": "components/stepper-value1.js",
+    "components/stepper-value2.js": "components/stepper-value2.js",
+    "components/stepper-value3.js": "components/stepper-value3.js",
+    "pages/home.js": "pages/home.js",
+    "pages/index.js": "pages/index.js",
+    "pages/inspire.js": "pages/inspire.js",
+    "pages/rules.js": "pages/rules.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/stepper-value1.js": "components/stepper-value1.js.map",
+    "components/stepper-value2.js": "components/stepper-value2.js.map",
+    "components/stepper-value3.js": "components/stepper-value3.js.map",
+    "pages/home.js": "pages/home.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/inspire.js": "pages/inspire.js.map",
+    "pages/rules.js": "pages/rules.js.map",
+    "server.js": "server.js.map"
+  }
+}
