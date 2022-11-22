@@ -1,7 +1,7 @@
 <template>
   <v-card>
-    <v-card-text class="text-h3 font-weight-bold d-flex justify-center mb-6"
-      >Peraturan Pemilihan Ketua Osis</v-card-text
+    <v-card-text class="text-h3 font-weight-bold d-flex justify-center mb-6 black--text"
+      >Peraturan Pemilihan Ketua OSIS</v-card-text
     >
 
     <v-list-item>
@@ -27,7 +27,7 @@
     <v-list-item>
       <v-card-text class="text-h5 font-weight-bold"
         >4. Peserta Pemilihan Ketua OSIS tidak diperkenankan membawa smartphone
-        ke biliki pemilihan.</v-card-text
+        ke bilik pemilihan.</v-card-text
       >
     </v-list-item>
 
@@ -76,11 +76,11 @@ export default {
   methods: {
     async coba() {
       const { value: accept } = await this.$swal.fire({
-        title: "Terms and conditions",
+        title: "Peraturan Pemilihan Ketua OSIS",
         input: "checkbox",
         inputValue: 1,
-        inputPlaceholder: "I agree with the terms and conditions",
-        confirmButtonText: 'Continue <i class="fa fa-arrow-right"></i>',
+        inputPlaceholder: "Saya Setuju dengan Peraturan Pemilihan Ketua OSIS",
+        confirmButtonText: 'Selanjutnya <i class="fa fa-arrow-right"></i>',
         inputValidator: (result) => {
           return !result && "You need to agree with T&C";
         },

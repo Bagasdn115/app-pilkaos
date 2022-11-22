@@ -56,7 +56,7 @@
 
                         <router-link to="/rules">
                           <v-btn
-                            @click="handleLoginClicked"
+                          
                             color="primary"
                             dark
                             block
@@ -92,25 +92,7 @@ export default {
     ],
     checkbox: false,
   }),
-  methods: {
-    async handleLoginClicked() {
-      // const user = {
-      //   username: this.username,
-      //   password: this.password,
-      // };
-      try {
-        const response = await this.$auth.loginWith("local", {
-          data: { username: this.username, password: this.password },
-        });
-        console.log(response);
-        if (response.data.success) {
-          this.$router.replace({ name: "admin" });
-        }
-      } catch (err) {
-        console.log(err);
-      }
-    },
-  },
+  
 };
 </script>
 

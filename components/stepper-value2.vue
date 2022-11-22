@@ -6,23 +6,23 @@
     <v-stepper v-model="e6" vertical class="elevation-0">
       <v-stepper-step :complete="e6 > 1" step="1">
         Biodata Calon Ketua OSIS
-        <small>Summarize if needed</small>
+        
       </v-stepper-step>
 
       <v-stepper-content step="1">
         <v-card color="white" class="mb-12" max-height="400px" elevation="0">
           <v-card-text class="text-h5 font-weight-bold"
-            >Nama : Bagas Dwi Novianto</v-card-text
+            >Nama : Alfi Arisandi</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
-            >Tempat Tanggal Lahir : Banyumas, 13 November 2000</v-card-text
+            >Tempat Tanggal Lahir : Banyumas, 20 Oktober 2000</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
-            >Alamat : Pasiraman Lor RT 02 RW 04 Kec. Pekuncen, Kab.
+            >Alamat : Lesmana Kec. Ajibarang, Kab.
             Banyumas</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
-            >Kelas : VIII A</v-card-text
+            >Kelas : VIII D</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
             >Hobi : Bermain Game, Mendengarkan Musik</v-card-text
@@ -43,17 +43,17 @@
       <v-stepper-content step="2">
         <v-card color="white" class="mb-12" max-height="400px" elevation="0">
           <v-card-text class="text-h5 font-weight-bold"
-            >Nama : Bagas Dwi Novianto</v-card-text
+            >Nama : Aldona Anindita</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
-            >Tempat Tanggal Lahir : Banyumas, 13 November 2000</v-card-text
+            >Tempat Tanggal Lahir : Banyumas, 8 Agustus 2000</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
-            >Alamat : Pasiraman Lor RT 02 RW 04 Kec. Pekuncen, Kab.
+            >Alamat : Pancurendang Kec. Ajibarang, Kab.
             Banyumas</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
-            >Kelas : VIII A</v-card-text
+            >Kelas : VIII C</v-card-text
           >
           <v-card-text class="text-h5 font-weight-bold"
             >Hobi : Bermain Game, Mendengarkan Musik</v-card-text
@@ -109,7 +109,7 @@
 export default {
   data() {
     return {
-      myImage: require("@/assets/Foto1-HD.png"),
+      myImage: require("@/assets/Foto2-HD.png"),
       e1: 1,
       e6: 1,
     };

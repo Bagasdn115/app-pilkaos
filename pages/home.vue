@@ -48,7 +48,7 @@ export default {
       this.$swal
         .fire({
           title: "Apakah kamu yakin?",
-          icon: "warning",
+          icon: "question",
           showConfirmButton: true,
           showCancelButton: true,
           confirmButtonColor: "#3085d6",
@@ -61,7 +61,7 @@ export default {
             let timerInterval;
             this.$swal.fire({
               title: "Jawabanmu Telah Diterima!",
-              html: "I will close in <b></b> milliseconds.",
+              html: "Program akan ditutup dalam <b></b> milliseconds.",
               icon: "success",
               timer: 2000,
               timerProgressBar: true,
