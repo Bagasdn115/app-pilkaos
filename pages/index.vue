@@ -20,7 +20,7 @@
                           class="mx-auto"
                           max-width="300px"
                           max-height="300px"
-                          src="img/osis.png"
+                          src="img/OSIS.png"
                         ></v-img>
                         <v-text-field
                           label="User Name"
